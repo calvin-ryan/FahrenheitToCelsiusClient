@@ -29,7 +29,8 @@ public class FahrenheitToCelsiusClient {
      */
     public static void main(String[] args) {
         String response;
-        String prompt = "Enter a temperature in degrees celsius or Q to quit:";
+        String prompt = "Enter a temperature in degrees fahrenheit"
+                + " or Q to quit:";
         boolean keepGoing = true;
         while(keepGoing){
             response = getUserInput(prompt);
